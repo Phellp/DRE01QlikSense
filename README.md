@@ -103,4 +103,4 @@ A estrutura apresentada permitirá à Alpha Tech Solutions monitorar detalhadame
 
 Felipe Santos 
 
-[<img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>]([https://www.linkedin.com/in/rafaelfelippe/](https://www.linkedin.com/in/felipe-j-santos/))
+[<img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>](https://www.linkedin.com/in/felipe-j-santos/)
