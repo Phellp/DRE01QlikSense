@@ -8,12 +8,12 @@ Os conjuntos de dados utilizados estão disponíveis no repositório "Bases".
 
 # Entendimento do Negócio para Construção da DRE
 Nome da Empresa Fictícia: Alpha Tech Solutions
-Contexto Geral:
+<H4> Contexto Geral:</H4>
 A Alpha Tech Solutions é uma empresa fictícia do setor de tecnologia, especializada no desenvolvimento e comercialização de software de gestão empresarial (ERP). Ela atende pequenas e médias empresas, oferecendo soluções que variam de licenças únicas a modelos SaaS (Software as a Service).
 
 Com o crescimento da operação e a diversificação das receitas, a gestão financeira identificou a necessidade de uma Demonstração do Resultado do Exercício (DRE) detalhada, que atenda à estrutura abaixo, para aumentar a clareza sobre as operações financeiras e dar suporte à tomada de decisão estratégica.
 
-Objetivos da DRE:
+<H4> Objetivos da DRE: </H4>
 Consolidar todas as fontes de receitas e custos.
 Garantir visibilidade das despesas fixas e variáveis para identificar oportunidades de otimização.
 Obter informações claras sobre margens de contribuição e resultados operacionais.
@@ -95,5 +95,12 @@ O desenvolvimento do dashboard constitui na criação de duas principais visões
 **Análise Horizontal:** visão que possibilita analisar diferentes métricas ao longo do ano.
 ![image](https://github.com/user-attachments/assets/45fb4eca-ba49-4c7f-85d9-c48567a3b8c9)
 
-**Conclusão:**
+# Conclusões Finais
 A estrutura apresentada permitirá à Alpha Tech Solutions monitorar detalhadamente a performance financeira em cada etapa do processo operacional. Com isso, será possível identificar gargalos financeiros, medir a eficiência operacional e fornecer relatórios financeiros claros e estratégicos para investidores e gestores.
+
+
+# Autor
+
+Felipe Santos 
+
+[<img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>]([https://www.linkedin.com/in/rafaelfelippe/](https://www.linkedin.com/in/felipe-j-santos/))
