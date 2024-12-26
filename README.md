@@ -85,6 +85,15 @@ Saldo disponível para investimentos, expansão e capital de giro.
 Durante a limpeza e transformação dos dados, várias tarefas foram aplicadas utilizando o AQL. Além dessa etapa ser fundamental para tratar possíveis inconsistências nos dados, ela também nos permitiu criar uma modelagem eficiênte através do modelo Star Schema. 
 ![image](https://github.com/user-attachments/assets/fcb25867-0bf8-4bd6-9d12-41da3cd1e4fa)
 
+# Desenvolvimento do Dashboard
 
-Conclusão:
+O desenvolvimento do dashboard constitui na criação de duas principais visões: 
+
+**Análise Vertical:** visão que possibilita analisar diferentes métricas ao longo da estrutura do plano de contas.
+![image](https://github.com/user-attachments/assets/10426853-4dea-4234-ae3b-c6fc2ad08b67)
+
+**Análise Horizontal:** visão que possibilita analisar diferentes métricas ao longo do ano.
+![image](https://github.com/user-attachments/assets/45fb4eca-ba49-4c7f-85d9-c48567a3b8c9)
+
+**Conclusão:**
 A estrutura apresentada permitirá à Alpha Tech Solutions monitorar detalhadamente a performance financeira em cada etapa do processo operacional. Com isso, será possível identificar gargalos financeiros, medir a eficiência operacional e fornecer relatórios financeiros claros e estratégicos para investidores e gestores.
