@@ -27,8 +27,8 @@ Integrar dados de ativos e caixa para projetar saúde financeira.
 Estrutura da DRE Utilizada:
 
 <br>
-**🟩 RECEITA BRUTA**
-
+**🟩 RECEITA BRUTA**. <br>
+- **Vendas:** tabela com informações históricas das vendas entre 01/01/2017 a 16/03/2019. <br>
 Receita com Serviços: Subscrições de SaaS e serviços de personalização.
 Receita com Produtos: Venda de licenças e módulos adicionais.
 Outras Receitas: Juros sobre aplicações financeiras ou receitas esporádicas.
