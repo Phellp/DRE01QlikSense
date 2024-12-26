@@ -19,8 +19,7 @@ Garantir visibilidade das despesas fixas e variáveis para identificar oportunid
 Obter informações claras sobre margens de contribuição e resultados operacionais.
 Integrar dados de ativos e caixa para projetar saúde financeira.
 
-Estrutura da DRE Utilizada:
-
+### Estrutura da DRE Utilizada:
 <br>
 <H4> 🟩 RECEITA BRUTA </H4>
 
@@ -80,6 +79,12 @@ Móveis e Outras Mobílias: Bens móveis relacionados ao ambiente de trabalho.
 <H4> 💲 CAIXA </H4>
 
 Saldo disponível para investimentos, expansão e capital de giro.
+
+# Modelagem dos Dados
+
+Durante a limpeza e transformação dos dados, várias tarefas foram aplicadas utilizando o AQL. Além dessa etapa ser fundamental para tratar possíveis inconsistências nos dados, ela também nos permitiu criar uma modelagem eficiênte através do modelo Star Schema. 
+![image](https://github.com/user-attachments/assets/fcb25867-0bf8-4bd6-9d12-41da3cd1e4fa)
+
 
 Conclusão:
 A estrutura apresentada permitirá à Alpha Tech Solutions monitorar detalhadamente a performance financeira em cada etapa do processo operacional. Com isso, será possível identificar gargalos financeiros, medir a eficiência operacional e fornecer relatórios financeiros claros e estratégicos para investidores e gestores.
