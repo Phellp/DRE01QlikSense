@@ -6,11 +6,6 @@ Esse é um projeto de Business Intelligence.
 Os conjuntos de dados utilizados estão disponíveis no repositório "Bases".
 
 
-Esse é um projeto de Business Intelligence.
-
-Os conjuntos de dados utilizados estão disponíveis no repositório "Bases".
-
-
 # Entendimento do Negócio para Construção da DRE
 Nome da Empresa Fictícia: Alpha Tech Solutions
 Contexto Geral:
@@ -27,14 +22,14 @@ Integrar dados de ativos e caixa para projetar saúde financeira.
 Estrutura da DRE Utilizada:
 
 <br>
-**🟩 RECEITA BRUTA**. <br>
-- **Vendas:** tabela com informações históricas das vendas entre 01/01/2017 a 16/03/2019. <br>
+<H4> 🟩 RECEITA BRUTA </H4>
+
 Receita com Serviços: Subscrições de SaaS e serviços de personalização.
 Receita com Produtos: Venda de licenças e módulos adicionais.
 Outras Receitas: Juros sobre aplicações financeiras ou receitas esporádicas.
 
 <br>
-🟨 DEDUÇÕES DA RECEITA
+<H4> 🟨 DEDUÇÕES DA RECEITA </H4>
 
 Devoluções e Reembolsos: Cancelamentos e ajustes relacionados ao faturamento.
 Impostos sobre Faturamento: ISS, PIS, COFINS e outros tributos aplicáveis.
@@ -42,14 +37,14 @@ Outras Deduções da Receita: Descontos comerciais e abatimentos concedidos.
 RECEITA LÍQUIDA
 
 <br>
-🟫 CUSTO DE PRODUTOS
+<H4> 🟫 CUSTO DE PRODUTOS </H4>
 
 Frete: Custos de transporte associados à entrega de produtos físicos.
 Outros Custos de Produtos: Custos de insumos para desenvolvimento ou produção.
 LUCRO BRUTO
 
 <br>
-🟦 DESPESAS VARIÁVEIS
+<H4> 🟦 DESPESAS VARIÁVEIS </H4>
 
 Anúncios e Propagandas: Investimentos em campanhas de marketing.
 Tarifas Meios de Pagamento: Taxas cobradas por operadoras de pagamento online.
@@ -58,7 +53,7 @@ Outras Despesas Variáveis: Custos relacionados ao volume de vendas.
 MARGEM DE CONTRIBUIÇÃO
 
 <br>
-🟪 DESPESAS FIXAS
+<H4> 🟪 DESPESAS FIXAS </H4>
 
 Pessoal: Salários, encargos e benefícios.
 Ocupação: Aluguel, energia elétrica e água.
@@ -68,7 +63,7 @@ Outros Custos Operacionais: Gastos administrativos gerais.
 RESULTADO OPERACIONAL
 
 <br>
-⬛️ IMPOSTOS SOBRE LUCRO
+<H4> ⬛️ IMPOSTOS SOBRE LUCRO </H4>
 
 IRPJ: Imposto de Renda Pessoa Jurídica.
 CSLL: Contribuição Social sobre o Lucro Líquido.
@@ -76,13 +71,13 @@ DAS: Documento de Arrecadação do Simples Nacional (se aplicável).
 LUCRO LÍQUIDO
 
 <br>
-🔲 OUTROS ATIVOS
+<H4> 🔲 OUTROS ATIVOS </H4>
 
 Máquinas e Equipamentos: Investimentos em hardware necessário para operação.
 Móveis e Outras Mobílias: Bens móveis relacionados ao ambiente de trabalho.
 
 <br>
-💲 CAIXA
+<H4> 💲 CAIXA </H4>
 
 Saldo disponível para investimentos, expansão e capital de giro.
 
