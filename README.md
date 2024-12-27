@@ -1,106 +1,106 @@
 ![CapaGit](https://github.com/user-attachments/assets/a0b6e249-460d-4aa2-9a7d-17ef4dcef51b)
 
+This is a **Business Intelligence** project.
 
-Esse é um projeto de Business Intelligence.
+The datasets used for this project are available in the **"Bases"** repository.
 
-Os conjuntos de dados utilizados estão disponíveis no repositório "Bases".
+# Business Understanding for P&L Construction
+**Company Name (Fictional): Alpha Tech Solutions**
 
+<H4> General Context: </H4>
+Alpha Tech Solutions is a fictitious technology company specializing in the development and commercialization of enterprise resource planning (ERP) software. It serves small and medium-sized businesses, offering solutions ranging from one-time licenses to SaaS (Software as a Service) models.
 
-# Entendimento do Negócio para Construção da DRE
-Nome da Empresa Fictícia: Alpha Tech Solutions
-<H4> Contexto Geral:</H4>
-A Alpha Tech Solutions é uma empresa fictícia do setor de tecnologia, especializada no desenvolvimento e comercialização de software de gestão empresarial (ERP). Ela atende pequenas e médias empresas, oferecendo soluções que variam de licenças únicas a modelos SaaS (Software as a Service).
+With operational growth and diversified revenue streams, financial management identified the need for a detailed Profit and Loss Statement (P&L) based on the structure below to enhance financial transparency and support strategic decision-making.
 
-Com o crescimento da operação e a diversificação das receitas, a gestão financeira identificou a necessidade de uma Demonstração do Resultado do Exercício (DRE) detalhada, que atenda à estrutura abaixo, para aumentar a clareza sobre as operações financeiras e dar suporte à tomada de decisão estratégica.
+<H4> P&L Objectives: </H4>
+- Consolidate all sources of revenue and costs.  
+- Ensure visibility into fixed and variable expenses to identify optimization opportunities.  
+- Provide clear insights into contribution margins and operational results.  
+- Integrate asset and cash data to project financial health.  
 
-<H4> Objetivos da DRE: </H4>
-Consolidar todas as fontes de receitas e custos.
-Garantir visibilidade das despesas fixas e variáveis para identificar oportunidades de otimização.
-Obter informações claras sobre margens de contribuição e resultados operacionais.
-Integrar dados de ativos e caixa para projetar saúde financeira.
-
-### Estrutura da DRE Utilizada:
-<br>
-<H4> 🟩 RECEITA BRUTA </H4>
-
-Receita com Serviços: Subscrições de SaaS e serviços de personalização.
-Receita com Produtos: Venda de licenças e módulos adicionais.
-Outras Receitas: Juros sobre aplicações financeiras ou receitas esporádicas.
+### P&L Structure Used:  
 
 <br>
-<H4> 🟨 DEDUÇÕES DA RECEITA </H4>
+<H4> 🟩 GROSS REVENUE </H4>
 
-Devoluções e Reembolsos: Cancelamentos e ajustes relacionados ao faturamento.
-Impostos sobre Faturamento: ISS, PIS, COFINS e outros tributos aplicáveis.
-Outras Deduções da Receita: Descontos comerciais e abatimentos concedidos.
-RECEITA LÍQUIDA
-
-<br>
-<H4> 🟫 CUSTO DE PRODUTOS </H4>
-
-Frete: Custos de transporte associados à entrega de produtos físicos.
-Outros Custos de Produtos: Custos de insumos para desenvolvimento ou produção.
-LUCRO BRUTO
+- Service Revenue: SaaS subscriptions and customization services.  
+- Product Revenue: Sales of licenses and additional modules.  
+- Other Revenue: Interest from financial applications or occasional income.  
 
 <br>
-<H4> 🟦 DESPESAS VARIÁVEIS </H4>
+<H4> 🟨 REVENUE DEDUCTIONS </H4>
 
-Anúncios e Propagandas: Investimentos em campanhas de marketing.
-Tarifas Meios de Pagamento: Taxas cobradas por operadoras de pagamento online.
-Comissões: Percentuais destinados a vendedores ou parceiros.
-Outras Despesas Variáveis: Custos relacionados ao volume de vendas.
-MARGEM DE CONTRIBUIÇÃO
-
-<br>
-<H4> 🟪 DESPESAS FIXAS </H4>
-
-Pessoal: Salários, encargos e benefícios.
-Ocupação: Aluguel, energia elétrica e água.
-TI/SAAS: Custos com ferramentas tecnológicas e infraestrutura.
-Serviços: Honorários de consultorias e suporte externo.
-Outros Custos Operacionais: Gastos administrativos gerais.
-RESULTADO OPERACIONAL
+- Returns and Refunds: Cancellations and adjustments related to billing.  
+- Taxes on Revenue: ISS, PIS, COFINS, and other applicable taxes.  
+- Other Revenue Deductions: Commercial discounts and granted allowances.  
+**Net Revenue**  
 
 <br>
-<H4> ⬛️ IMPOSTOS SOBRE LUCRO </H4>
+<H4> 🟫 COST OF PRODUCTS </H4>
 
-IRPJ: Imposto de Renda Pessoa Jurídica.
-CSLL: Contribuição Social sobre o Lucro Líquido.
-DAS: Documento de Arrecadação do Simples Nacional (se aplicável).
-LUCRO LÍQUIDO
-
-<br>
-<H4> 🔲 OUTROS ATIVOS </H4>
-
-Máquinas e Equipamentos: Investimentos em hardware necessário para operação.
-Móveis e Outras Mobílias: Bens móveis relacionados ao ambiente de trabalho.
+- Freight: Transportation costs associated with delivering physical products.  
+- Other Product Costs: Costs of inputs for development or production.  
+**Gross Profit**  
 
 <br>
-<H4> 💲 CAIXA </H4>
+<H4> 🟦 VARIABLE EXPENSES </H4>
 
-Saldo disponível para investimentos, expansão e capital de giro.
+- Advertising and Marketing: Investments in marketing campaigns.  
+- Payment Gateway Fees: Charges from online payment processors.  
+- Commissions: Percentages allocated to salespeople or partners.  
+- Other Variable Expenses: Costs related to sales volume.  
+**Contribution Margin**  
 
-# Modelagem dos Dados
+<br>
+<H4> 🟪 FIXED EXPENSES </H4>
 
-Durante a limpeza e transformação dos dados, várias tarefas foram aplicadas utilizando o AQL. Além dessa etapa ser fundamental para tratar possíveis inconsistências nos dados, ela também nos permitiu criar uma modelagem eficiênte através do modelo Star Schema. 
+- Personnel: Salaries, taxes, and benefits.  
+- Occupancy: Rent, electricity, and water.  
+- IT/SaaS: Costs for technological tools and infrastructure.  
+- Services: Fees for consultancies and external support.  
+- Other Operational Costs: General administrative expenses.  
+**Operational Result**  
+
+<br>
+<H4> ⬛️ TAXES ON PROFIT </H4>
+
+- IRPJ: Corporate Income Tax.  
+- CSLL: Social Contribution on Net Profit.  
+- DAS: Simplified Tax Payment Document (if applicable).  
+**Net Profit**  
+
+<br>
+<H4> 🔲 OTHER ASSETS </H4>
+
+- Machinery and Equipment: Investments in hardware required for operations.  
+- Furniture and Other Assets: Movable property related to the workspace.  
+
+<br>
+<H4> 💲 CASH </H4>
+
+- Balance available for investments, expansion, and working capital.  
+
+# Data Modeling
+
+During data cleaning and transformation, several tasks were applied using AQL. This step was crucial to address potential inconsistencies in the data and enabled the creation of an efficient model using the **Star Schema**.  
 ![image](https://github.com/user-attachments/assets/fcb25867-0bf8-4bd6-9d12-41da3cd1e4fa)
 
-# Desenvolvimento do Dashboard
+# Dashboard Development
 
-O desenvolvimento do dashboard constitui na criação de duas principais visões: 
+The dashboard development focused on creating two main views:
 
-**Análise Vertical:** visão que possibilita analisar diferentes métricas ao longo da estrutura do plano de contas.
-![image](https://github.com/user-attachments/assets/10426853-4dea-4234-ae3b-c6fc2ad08b67)
+**Vertical Analysis:** A view that allows analysis of different metrics across the account plan structure.  
+![image](https://github.com/user-attachments/assets/10426853-4dea-4234-ae3b-c6fc2ad08b67)  
 
-**Análise Horizontal:** visão que possibilita analisar diferentes métricas ao longo do ano.
+**Horizontal Analysis:** A view that allows analysis of different metrics throughout the year.  
 ![image](https://github.com/user-attachments/assets/45fb4eca-ba49-4c7f-85d9-c48567a3b8c9)
 
-# Conclusões Finais
-A estrutura apresentada permitirá à Alpha Tech Solutions monitorar detalhadamente a performance financeira em cada etapa do processo operacional. Com isso, será possível identificar gargalos financeiros, medir a eficiência operacional e fornecer relatórios financeiros claros e estratégicos para investidores e gestores.
+# Final Conclusions
 
+The structure presented will allow Alpha Tech Solutions to closely monitor financial performance at each stage of its operational processes. This will help identify financial bottlenecks, measure operational efficiency, and provide clear and strategic financial reports to investors and managers.
 
-# Autor
+# Author
 
-Felipe Santos 
+Felipe Santos  
 
-[<img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>](https://www.linkedin.com/in/felipe-j-santos/)
+[<img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>](https://www.linkedin.com/in/felipe-j-santos/)  
