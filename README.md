@@ -1,4 +1,5 @@
-![CapaGit](https://github.com/user-attachments/assets/a0b6e249-460d-4aa2-9a7d-17ef4dcef51b)
+![Inserir um título](https://github.com/user-attachments/assets/99830e78-0c04-4a88-97a4-1a9087e7eff7)
+
 
 This is a **Business Intelligence** project.
 
